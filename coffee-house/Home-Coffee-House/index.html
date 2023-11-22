@@ -12,9 +12,9 @@
   <header class="header">
     <div class="wrap-header-menu">
     <div class="imgLogo">
-      <img src="/assets/img/Ellipse 4.png" alt="logo" class="imgLogo1">
-      <img src="/assets/img/Resource.png" alt="logo" class="imgLogo2">
-      <img src="/assets/img/Coffee House.png" alt="logo" class="imgLogo3">
+      <img src="/assets/icon/Ellipse4.png" alt="logo" class="imgLogo1">
+      <img src="/assets/icon/Resource.png" alt="logo" class="imgLogo2">
+      <img src="/assets/icon/CoffeeHouse.png" alt="logo" class="imgLogo3">
     </div>
     <div class="container-header">
       <div class="imgLogo"></div>
@@ -37,43 +37,45 @@
         </nav>
       </div>
       <div class="logoCup">
-        <span class="titleLogoCup">
-          <p class="title-menu">Menu</p>
-        </span>
+        <form action="" class="title-menu">
+          <button class="menu-cup">Menu</button>
+        </form>
         <span class="imgLogoCup">
-          <img src="/assets/img/coffee-cup.png" alt="cup" class="cup">
+          <img src="/assets/icon/coffee-cup.png" alt="cup" class="cup">
         </span>
       </div>
     </div>
   </div>
   </header>
-
   <main class="main">
     <div class="container-main">
       <section class="section enjoy">
         <img src="/assets/img/container.png" alt="enjoyimg" class="enjoy-img">
         <div class="enjoy-section">
           <div class="text-enjoy-top">
-            <p class="text-enjoy-top-p text-section">Enjoy premium coffee at our charming cafe</p>
+            <h1 class="text-enjoy-top-p text-section">Enjoy premium coffee at our charming cafe</h1>
           </div>
           <div class="text-enjoy-bottom">
             <p class="text-enjoy-bottom-p">With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.</p>
           </div>
         </div>
         <div class="menu-enjoy">
-          <label>
-            <button>Menu</button>
-          </label>
+          <form action="" class="menu-enjoy">
+            <button class="menu-enjoy-button">Menu</button>
+          </form>
         </div>
       </section> 
       <section class="section">
-        <p class="text-favorite-coffee text-section">Choose your favorite coffee</p>
+        <h2 class="text-favorite-coffee text-section">Choose your favorite coffee</h2>
         <div class="glass-text">
           <img src="/assets/img/coffee-slider-1.png" alt="glass" class="glass">
+          <p class="glass-text-1">S’mores Frappuccino</p>
+          <p class="glass-text-2">This new drink takes an espresso and mixes it with brown sugar and cinnamon before being topped with oat milk.</p>
+          <p class="glass-text-price">$5.50</p>
         </div>
       </section>
       <section class="section">
-        <p class="text-about text-section">Resource is the perfect and cozy place where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.</p>
+        <h2 class="text-about text-section">Resource is the perfect and cozy place where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.</h2>
         <div class="img-about">
           <img src="/assets/img/about-1.png" alt="img-about" class="img-about-1">
           <img src="/assets/img/about-2.png" alt="img-about" class="img-about-2">
@@ -84,12 +86,21 @@
       <section class="section">
         <div class="container-mobile-text">
           <div class="wrap-text-mobile">
-            <p class="text-mobile-up text-section">Download our apps to start ordering</p>
+            <h2 class="text-mobile-up text-section">Download our apps to start ordering</h2>
             <p class="text-mobile-bottom">Download the Resource app today and experience the comfort of ordering your favorite coffee from wherever you are</p>
-            <form class="button-mobile">
-              <button class="mobile-button-1">App Store</button>
-              <button class="mobile-button-2">Google Play</button>
-            </form>
+            <div class="form">
+              <img src="/assets/icon/AppleStore.png" alt="apple" class="apple">
+              <form action="" class="button-mobile">
+                <button class="mobile-button-1"><span class='textSmall'>Available on the</span><br>App Store</button>
+              </form>
+            </div>
+            <div class="form">
+              <img src="/assets/icon/googlePlay.png" alt="apple" class="google">
+              <form action="" class="button-mobile">
+                <p></p>
+                <button class="mobile-button-2"><span class='textSmall'>Available on</span><br> Google Play</button>
+              </form>
+            </div>
           </div>
           <div class="container-mobile-img">
             <img src="/assets/img/mobile-screens.png" alt="phone" class="img-phone">
@@ -101,17 +112,17 @@
   <footer class="footer">
     <div class="container-footer">
       <div class="footer-text-left">
-        <p class="footer-text">Sip, Savor, Smile. It’s coffee time!</p>
+        <h2 class="footer-text">Sip, Savor, Smile. It’s coffee time!</h2>
         <div class="icon-footer">
           <ul class="icon-footer-list">
             <li class="icon-item">
-              <a href="" class="iccn-link"><img src="/assets/img/twitter.png" alt="twitter" class="twitter>"</a>
+              <a href="https://twitter.com/" class="iccn-link"><img src="/assets/icon/twitter.png" alt="twitter" class="twitter"></a>
             </li>
             <li class="icon-item">
-              <a href="" class="iccn-link"><img src="/assets/img/instagram.png" alt="instagram" class="instagram"></a>
+              <a href="https://www.instagram.com/accounts/login/" class="iccn-link"><img src="/assets/icon/instagram.png" alt="instagram" class="instagram"></a>
             </li>
             <li class="icon-item">
-              <a href="" class="iccn-link"><img src="/assets/img/facebook.png" alt="facebook" class="facebook"></a>
+              <a href="https://www.facebook.com/?locale=ru_RU" class="iccn-link"><img src="/assets/icon/facebook.png" alt="facebook" class="facebook"></a>
             </li>
           </ul>
         </div>
@@ -119,21 +130,18 @@
       <div class="footer-text-right">
         <p class="footer-contact">Contact us</p>
         <div class="footer-contact-info">
-          <span class="contacts-info str1">
+          <div class="contacts-info str1">
             <img src="/assets/icon/pin-alt.png" alt="icon-contact" class="icon-contact">
             <p class="text-contact">8558 Green Rd.,  LA</p>
-
-          </span>
-          <span class="contacts-info str2">
+          </div>
+          <div class="contacts-info str2">
             <img src="/assets/icon/phone.png" alt="icon-contact" class="icon-contact">
             <p class="text-contact">+1 (603) 555-0123</p>
-
-          </span>
-          <span class="contacts-info str3">
+          </div>
+          <div class="contacts-info str3">
             <img src="/assets/icon/clock.png" alt="icon-contact" class="icon-contact">
             <p class="text-contact">Mon-Sat: 9:00 AM – 23:00 PM</p>
-
-          </span>
+          </div>
         </div>
       </div>
     </div>
