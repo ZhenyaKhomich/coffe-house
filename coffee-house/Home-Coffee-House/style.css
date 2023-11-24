@@ -283,6 +283,10 @@ a {
 }
 .container-mobile-text {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    align-self: stretch;
 }
 .text-mobile-up {
     color: var(--text-dark, #403F3D);
@@ -305,3 +309,57 @@ a {
     font-weight: 600;
     line-height: 125%;
 } 
+.text-mobile-bottom {
+    color: var(--text-dark, #403F3D);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    align-self: stretch;
+    height: auto;
+    width: 630px;
+}
+.form {
+    display: flex;
+    flex-direction: row;
+
+}
+.button-mobile {
+    display: flex;
+    width: 200px;
+    padding: 12px 20px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 100px;
+    border: 1px solid var(--border-dark, #665F55);
+}
+.mobile-button {
+    color: var(--text-dark, #403F3D);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+    border: none;
+    background: var(--background-body, #E1D4C9);
+}
+.button-mobile {
+    display: flex;
+}
+.textSmall {
+    color: var(--text-dark, #403F3D);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+}
+.container-mobile-img {
+    width: 630px;
+    height: 630px;
+}
