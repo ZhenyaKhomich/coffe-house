@@ -7,7 +7,7 @@ body {
     justify-content: space-between;
     max-width: 1440px;
     min-height: 100hv;
-    margin: 0px 40px;
+    margin: 0px auto;
     padding: 0px 32px;
     background: var(--background-body, #E1D4C9);
 }
