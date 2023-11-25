@@ -198,6 +198,7 @@ a {
     flex-direction: column;
     align-items: center;
     margin: auto;
+    gap: 40px;
 }
 .glass {
     display: flex;
@@ -206,6 +207,10 @@ a {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    margin: 0px 10px 0px 0px
+}
+.glass-text {
+    margin: 0px 9px 0px 0px;
 }
 .glass-text-1 {
     color: var(--text-dark, #403F3D);
@@ -216,7 +221,8 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: 125%;
-    align-self: stretch;    
+    align-self: stretch;  
+    margin: 0px;  
 }
 .glass-text-2 {
     color: var(--text-dark, #403F3D);
@@ -226,7 +232,7 @@ a {
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
-    line-height: 150%; /* 24px */
+    line-height: 150%; 
     align-self: stretch;
 }
 .glass-text-price {
@@ -239,6 +245,42 @@ a {
     font-weight: 600;
     line-height: 125%; 
     align-self: stretch;
+    margin: 0px;
+}
+.carusel{
+    display: flex;
+    align-items: flex-start;
+    margin: -10px 10px 0px -20px;
+}
+.carusel-dot{
+    gap: 1px;
+}
+.carusel-dot-input {
+    appearance: none;
+}
+.new-dot-carusel{
+    width: 40px;
+    height: 4px;
+    border-radius: 100px;
+    background: var(--border-light, #C1B6AD);
+    display: inline-block;
+    position: relative;
+}
+.new-dot-carusel::before {
+    position: absolute;
+    display: block;
+    content: "";
+    opacity: 0;
+    width: 40px;
+    height: 4px;
+    border-radius: 100px;
+    background: var(--border-dark, #665F55);
+}
+.carusel-dot-input:checked + .new-dot-carusel::before {
+    opacity: 1;
+}
+.section-about {
+    margin: 94px 0px 0px 0px;
 }
 .text-about {
     color: var(--text-dark, #403F3D);
@@ -247,8 +289,10 @@ a {
     font-size: 59px;
     font-style: normal;
     font-weight: 600;
-    line-height: 125%; 
+    line-height: 127%; 
     align-self: stretch;
+    margin: 0px 30px 0px 30px;
+    text-align: start;
 }
 
 .perfect {
@@ -259,6 +303,33 @@ a {
     font-style: italic;
     font-weight: 600;
     line-height: 125%;
+}
+.p {
+    letter-spacing: -1px;
+}
+.u {
+    letter-spacing: 1px;
+}
+.n {
+    letter-spacing: px;
+}
+.a{
+    letter-spacing: 1px;
+}
+.f {
+    letter-spacing: 1px;
+}
+.s {
+    letter-spacing: 1px;
+}
+.w {
+    letter-spacing: 1.5px; 
+}
+.o {
+    letter-spacing: 1px;
+}
+.e {
+    letter-spacing: 1px
 }
 .img-about {
     display: flex;
@@ -377,7 +448,6 @@ a {
     width: 630px;
     height: 630px;
 }
-
 .container-footer {
     display: flex;
     max-width: 1360px;
