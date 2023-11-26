@@ -130,26 +130,43 @@ a {
 .q {
     letter-spacing: -5px;
 }
-
-.forms {
+.carusel {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 21px;
-    margin: 0px 16px 0px 0px;
+    gap: 10.4px;
+    margin: -4px 0px 38.5px -6px;
 }
-.form {
-    display: flex;
-    padding: 6px 16px 6px 5px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+.img-dot {
     border-radius: 100px;
-    border: 1px solid var(--border-light, #C1B6AD);
-    margin:-0px -9px 39px 0px;
+    background: var(--border-light, #C1B6AD);
+    padding: 7px 7px;
+    justify-content: center;
+    align-items: center;
+    color: var(--text-dark, #403F3D);
+    text-align: center;
+    font-feature-settings: 'clig' off, 'liga' off;
+    gap: 8px;
+    margin: 6px 9px 0px 0px;
 }
-.form-text {
-    display: flex;
+input {
+    display: none;
+}
+label {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    border-radius: 40px;
+    border: 1px solid #C1B6AD;
+    cursor: pointer;
+    text-align: center;
+    padding: 2px 16px 3px 8px;
+}
+.coffee-label:after {
+    content: 'Coffee';
+    position: relative;
+    top: -8px;
+    left: -1px;
     color: var(--text-dark, #403F3D);
     font-feature-settings: 'clig' off, 'liga' off;
     font-family: Inter;
@@ -157,26 +174,66 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
-    border: none;
-    background: #E1D4C9;
-    gap: 10px;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
 }
-.img-dot {
-    width: 16px;
-    height: 24px;
-    display: flex;
-    padding: 3px 7px;
-    justify-content: center;
-    align-items: center;
-    gap: 8px;
+.tea-label:after {
+    content: 'Tea';
+    position: relative;
+    top: -9px;
+    color: var(--text-dark, #403F3D);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+.cake-label:after {
+    content: 'Dessert';
+    position: relative;
+    top: -9px;
+    left: 1px;
+    color: var(--text-dark, #403F3D);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%;
+}
+input:checked ~ label {
     border-radius: 100px;
-    border: 1px solid var(--border-light, #C1B6AD);
+    background: var(--background-container, #665F55);
 }
-
+input:checked ~ .coffee-label:after {
+    content: 'Сoffee';
+    color: var(--text-light, #E1D4C9);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+}
+input:checked ~ .tea-label:after {
+    content: 'Tea';
+    color: var(--text-light, #E1D4C9);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+}
+input:checked ~ .cake-label:after {
+    content: 'Dessert';
+    color: var(--text-light, #E1D4C9);
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; 
+}
 .box-img-menu {
     display: flex;
     max-width: 1360px;
@@ -280,7 +337,6 @@ a {
     line-height: 125%; 
     align-self: stretch;
     text-align: left;
-    
     margin: auto 0px 0px 0px;
 }
 .price-drink-block {
