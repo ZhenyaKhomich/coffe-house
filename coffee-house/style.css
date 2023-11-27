@@ -111,7 +111,7 @@ a {
 .section-enjoy {
    display: flex;
    flex-direction: column;
-   background: url('/assets/img/container1.jpg'), lightgray 50% / cover no-repeat;
+   background: url('./assets/img/container1.jpg'), lightgray 50% / cover no-repeat;
    background-size: 100% 100%;
    height: auto;
    max-width: 1350px;
