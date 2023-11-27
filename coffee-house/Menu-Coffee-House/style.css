@@ -74,6 +74,10 @@ html {
     font-weight: 600;
     line-height: 150%;
 }
+.nav-menu-list-item-link:hover{
+    border-bottom: 2px solid #403F3D; 
+    cursor: pointer;
+}
 ul {
     list-style-type: none;
 }
@@ -145,12 +149,12 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10.4px;
-    margin: -4px 0px 38.5px -4px;
+    margin: -2px 1px 38px -2px;
 }
 .img-dot {
     border-radius: 100px;
     background: var(--border-light, #C1B6AD);
-    padding: 7px 7px;
+    padding: 6px 7px;
     justify-content: center;
     align-items: center;
     color: var(--text-dark, #403F3D);
@@ -170,7 +174,7 @@ label {
     border: 1px solid #C1B6AD;
     cursor: pointer;
     text-align: center;
-    padding: 2px 16px 3px 8px;
+    padding: 3px 16px 3px 8px;
 }
 .coffee-label:after {
     content: 'Coffee';
@@ -244,6 +248,27 @@ input:checked ~ .cake-label:after {
     font-weight: 600;
     line-height: 150%; 
 }
+label:hover {
+    background: var(--background-container, #665F55);
+}
+.log-text {
+   position: absolute;
+   margin: 10px 0px 0px 0px;
+   color: var(--text-light, #E1D4C9);
+   font-feature-settings: 'clig' off, 'liga' off;
+   font-family: Inter;
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: 150%; 
+   opacity: 0;
+}
+label:hover .log-text {
+    background: var(--background-container, #665F55);
+    opacity: 1;
+    z-index: 1;
+}
+
 .box-img-menu {
     display: flex;
     align-items: flex-start;
@@ -262,6 +287,16 @@ input:checked ~ .cake-label:after {
     height: 506px;
     flex-direction: column;
     align-items: center;  
+    cursor: pointer;
+    display: inline-block;
+    overflow: hidden;
+}
+.box-menu .img-drink {
+    transition: 1s;
+    display: block;
+}
+.box-menu:hover {
+    transform: scale(1.1);
 }
 .img-drink {
     width: 308px;
@@ -297,7 +332,7 @@ input:checked ~ .cake-label:after {
     text-align: left;
     width: 270px;
     height: auto;
-    margin: -5px 0px 0px -1px;
+    margin: -4.5px 0px 0px -1px;
 }
 .name-drink-1 {
     margin: -5px 0px 0px -1px; 
@@ -344,7 +379,7 @@ input:checked ~ .cake-label:after {
     line-height: 125%; 
     align-self: stretch;
     text-align: left;
-    margin: auto 0px 0px 0px;
+    margin: auto 0px 4px 0px;
 }
 .price-drink-block {
     display: flex;
@@ -384,7 +419,7 @@ input:checked ~ .cake-label:after {
     align-self: stretch;
     height: auto;
     width: 530px;
-    margin: 0px 0px 0px -3px;
+    margin: -1px 0px 0px -3px;
     text-align: left;
 }
 .coffee-time {
@@ -400,7 +435,7 @@ input:checked ~ .cake-label:after {
 .icon-footer-list {
     display: flex;
     gap: 11px;
-    margin: 39px 0px 0px -43px;
+    margin: 38px 0px 0px -43px;
 }
 .icon-item {
     display: flex;

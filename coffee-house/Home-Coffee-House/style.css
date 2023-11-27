@@ -101,9 +101,7 @@ a {
 }
 .menu-cup:hover {
     border-bottom: 2px solid #403F3D;
-    
     cursor: pointer;
-   
 }
 .container-main{
     display: flex;
