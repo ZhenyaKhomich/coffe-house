@@ -11,6 +11,7 @@ body {
     text-align: center;
     background: var(--background-body, #E1D4C9);
     padding: 20px 0px;
+    
 }
 .container {
     padding: 0px 40px;
@@ -135,7 +136,7 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10.4px;
-    margin: -4px 0px 38.5px -6px;
+    margin: -4px 0px 38.5px -4px;
 }
 .img-dot {
     border-radius: 100px;
@@ -236,19 +237,19 @@ input:checked ~ .cake-label:after {
 }
 .box-img-menu {
     display: flex;
-    max-width: 1360px;
-    justify-content: center;
     align-items: flex-start;
     align-content: flex-start;
     gap: 40px;
     flex-wrap: wrap;
-    margin: -1.5px 0px -1px -1.5px;
+    margin: 0px 0px -1px -0.5px;
+    width: 1440px;
+    
+    
 }
 .box-menu {
     border-radius: 40px;
     border: 1px solid var(--border-light, #C1B6AD);
     width: 308px;
-    height: 310px;
     flex-shrink: 0;
     display: flex;
     height: 506px;
@@ -260,7 +261,6 @@ input:checked ~ .cake-label:after {
     height: 310px;
     flex-shrink: 0;
     border-radius: 40px;
-    border: 1px solid var(--border-light, #C1B6AD);
     margin: -1px 0px 0px 0px;
 }
 .block-about-drink {
