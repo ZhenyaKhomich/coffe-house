@@ -103,7 +103,7 @@ a {
     border-bottom: 3px solid #403F3D;
 }
 .menu-cup:disable {
-    pointer-events: none;
+    cursor: not-allowed;
 }
 .behind {
     display: flex;
@@ -172,7 +172,6 @@ label {
     height: auto;
     border-radius: 40px;
     border: 1px solid #C1B6AD;
-    cursor: pointer;
     text-align: center;
     padding: 3px 16px 3px 8px;
 }
@@ -188,6 +187,9 @@ label {
     font-style: normal;
     font-weight: 600;
     line-height: 150%;
+}
+.coffee-input:disable {
+cursor: not-allowed;
 }
 .tea-label:after {
     content: 'Tea';
@@ -248,7 +250,16 @@ input:checked ~ .cake-label:after {
     font-weight: 600;
     line-height: 150%; 
 }
-label:hover {
+.tea-label {
+    cursor:pointer;
+}
+.cake-label {
+    cursor:pointer;
+}
+.tea-label:hover {
+    background: var(--background-container, #665F55);
+}
+.cake-label:hover {
     background: var(--background-container, #665F55);
 }
 .log-text {
@@ -263,7 +274,12 @@ label:hover {
    line-height: 150%; 
    opacity: 0;
 }
-label:hover .log-text {
+.tea-label:hover .log-text {
+    background: var(--background-container, #665F55);
+    opacity: 1;
+    z-index: 1;
+}
+.cake-label:hover .log-text {
     background: var(--background-container, #665F55);
     opacity: 1;
     z-index: 1;
