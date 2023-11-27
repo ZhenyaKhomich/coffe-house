@@ -11,23 +11,23 @@ body {
     text-align: center;
     background: var(--background-body, #E1D4C9);
     padding: 20px 0px;
-    
-    
 }
-.page 
+html {
+    scroll-behavior: smooth;
+}
 .container {
     padding: 0px 40px;
-    
     margin: 0px auto;
 }
-
 .wrap-header-menu {
     display: flex;
     justify-content: space-between;
-    margin: 4px 0px 40px 0px;
+    margin: 4px 0px 19px 0px;
+    height: 60px;
 }
 .imgLogo{
     position: relative;
+    cursor: pointer;
 }
 .imgLogo1{
     position: absolute;
@@ -72,10 +72,13 @@ body {
     font-weight: 600;
     line-height: 150%;
 }
+.nav-menu-list-item-link:hover{
+    border-bottom: 2px solid #403F3D; 
+    cursor: pointer;
+}
 ul {
     list-style-type: none;
 }
-
 a {
     text-decoration: none;
 }
@@ -93,7 +96,14 @@ a {
     font-weight: 600;
     line-height: 150%;
     border: none;
-    margin: 15px -5px 0px 0px;
+    margin: 15px 1px 0px 9px;
+    padding: 0px;
+}
+.menu-cup:hover {
+    border-bottom: 2px solid #403F3D;
+    
+    cursor: pointer;
+   
 }
 .container-main{
     display: flex;
@@ -182,6 +192,18 @@ a {
     align-items: center;
     margin: 0px 0px 0px 5px;
 }
+.img-cup-menu {
+    opacity: 0;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
+    padding: 21px 55px 21px 120px;
+}
+.menu-enjoy-button:hover {
+    cursor: pointer;
+}
+.img-cup-menu:hover {
+    opacity: 1;
+}
 .text-favorite-coffee {
     color: var(--text-dark, #403F3D);
     text-align: center;
@@ -226,14 +248,30 @@ a {
 }
 .slider {
     display: flex;
-    position: absolute;
+    position: relative;
     top: 50%;
-    gap:1230px;
+    ga:1230px;
     margin: 0px -4px 0px 0px;
-    
+    cursor: pointer;
+}
+.slider svg {
+    stroke: #403F3D;
+}
+.prev:hover svg {
+    stroke:#E1D4C9;
+    background-color: #665F55;
+    border-radius: 100%;
+    padding: 20px 20px 20px 20px;
+}
+.next:hover svg {
+    stroke:#E1D4C9;
+    background-color: #665F55;
+    border-radius: 100%;
+    padding: 20px 20px 20px 20px;
 }
 .prev {
     display: flex;
+    position: absolute;
     width: 60px;
     height: 60px;
     justify-content: center;
@@ -241,9 +279,11 @@ a {
     flex-shrink: 0;
     border-radius: 100px;
     border: 1px solid var(--border-dark, #665F55);
+    margin: -210px 0px 0px -679px;
 }
 .next {
     display: flex;
+    position: absolute;
     width: 60px;
     height: 60px;
     justify-content: center;
@@ -251,10 +291,10 @@ a {
     flex-shrink: 0;
     border-radius: 100px;
     border: 1px solid var(--border-dark, #665F55);
-    margin: 0px 4px 0px 0px;
+    margin: -210px 0px 0px 613px;
 }
 .glass-text {
-    margin: 0px 9px 0px 10px;
+    margin: -20px 10px 0px 10px;
 }
 .glass-text-1 {
     color: var(--text-dark, #403F3D);
@@ -298,6 +338,7 @@ a {
 }
 .carusel-dot{
     gap: 1px;
+    cursor:pointer;
 }
 .carusel-dot-input {
     appearance: none;
@@ -482,6 +523,7 @@ a {
     border-radius: 100px;
     border: 1px solid var(--border-dark, #665F55);
     margin: -5px 0px 0px 0px;
+    cursor: pointer;
 }
 .mobile-button {
     color: var(--text-dark, #403F3D);
@@ -495,13 +537,29 @@ a {
     background: var(--background-body, #E1D4C9);
     margin: 0px 0px 0px 0px;
     text-align: start;
-    margin: 0px 0px 0px 0px;
 }
 .button-mobile {
     display: flex;
     align-items: center;
     position: relative;
-    margin: -8px 0px 0px 2px;
+    margin: 0px 0px 0px 2px;
+}
+.button-mobile svg {
+    fill: #403F3D; 
+}
+.form-1:hover {
+    background: var(--background-container, #665F55);
+    fill: #E1D4C9;
+}
+.form-1:hover .mobile-button{
+    background: var(--background-container, #665F55);
+    color: #E1D4C9;
+}
+.form-1:hover svg {
+    fill: #E1D4C9;
+}
+.form-1:hover .textSmall{
+    color: #E1D4C9;  
 }
 .button-mobile img {
     width: 36px;
@@ -577,6 +635,21 @@ a {
     border-radius: 100px;
     border: 1px solid var(--border-light, #C1B6AD);
 }
+.icon-item:hover svg{
+    stroke: #403F3D;
+    border-radius: 100px;
+    background-color: #E1D4C9;
+    padding: 18px 18px 18px 18px;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 0px 0px 0px;
+}
+.iccn-link svg {
+    stroke:#E1D4C9;
+}
+.iccn-link svg {
+    padding: 18px 18px 18px 18px;
+}
 .footer-text-right {
     display: flex;
     flex-direction: column;
@@ -598,7 +671,7 @@ a {
     align-self: stretch;
 }
 .footer-contact-str {
-    margin: -15px 0px 0px -2px;
+    margin: -11px 0px 0px -2px;
 }
 .info-contact {
     display: flex;
@@ -617,6 +690,14 @@ a {
     line-height: 150%;
     letter-spacing: 0.1px;
 }
+.text-contact a {
+    color: var(--text-light, #E1D4C9);
+}
+.fot-cont-link:hover {
+border-bottom: 2px solid #E1D4C9;
+}
 .tic {
     margin: 4px 0px 0px 0px;
 }
+
+

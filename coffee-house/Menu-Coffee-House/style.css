@@ -11,7 +11,9 @@ body {
     text-align: center;
     background: var(--background-body, #E1D4C9);
     padding: 20px 0px;
-    
+}
+html {
+    scroll-behavior: smooth;
 }
 .container {
     padding: 0px 40px;
@@ -23,6 +25,11 @@ body {
 }
 .imgLogo{
     position: relative;
+    display: inline-block;
+}
+.imgLogo:hover {
+    background: rgba(160, 160, 116, 0.5);
+    border-radius: 50%;
 }
 .imgLogo1{
     position: absolute;
@@ -70,7 +77,6 @@ body {
 ul {
     list-style-type: none;
 }
-
 a {
     text-decoration: none;
 }
@@ -91,6 +97,9 @@ a {
     margin: 15px 1px 0px 9px;
     padding: 0px;
     border-bottom: 3px solid #403F3D;
+}
+.menu-cup:disable {
+    pointer-events: none;
 }
 .behind {
     display: flex;
@@ -242,9 +251,7 @@ input:checked ~ .cake-label:after {
     gap: 40px;
     flex-wrap: wrap;
     margin: 0px 0px -1px -0.5px;
-    width: 1440px;
-    
-    
+    width: 1440px; 
 }
 .box-menu {
     border-radius: 40px;
@@ -404,6 +411,21 @@ input:checked ~ .cake-label:after {
     border-radius: 100px;
     border: 1px solid var(--border-light, #C1B6AD);
 }
+.icon-item:hover svg{
+    stroke: #403F3D;
+    border-radius: 100px;
+    background-color: #E1D4C9;
+    padding: 18px 18px 18px 18px;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 0px 0px 0px;
+}
+.iccn-link svg {
+    stroke:#E1D4C9;
+}
+.iccn-link svg {
+    padding: 18px 18px 18px 18px;
+}
 .footer-text-right {
     display: flex;
     flex-direction: column;
@@ -444,6 +466,12 @@ input:checked ~ .cake-label:after {
     line-height: 150%;
     letter-spacing: 0.1px;
 }
+.text-contact a {
+    color: var(--text-light, #E1D4C9);
+}
+.fot-cont-link:hover {
+    border-bottom: 2px solid #E1D4C9;
+    }
 .tic {
     margin: 4px 0px 0px 0px;
 }
