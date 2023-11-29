@@ -447,6 +447,7 @@ a {
 .img-about-img:hover img {
     transform: scale(1);
     cursor:pointer;
+    transition: 1s;
 }
 .img-about-1 {
     width: 100%;
