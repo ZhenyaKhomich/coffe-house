@@ -452,13 +452,12 @@ a {
 .img-about-1 {
     width: 100%;
     height: 100%;
-    border-radius: 40px;
+    border-radius: 20px;
     transform: scale(1.1);
     object-fit: cover;
     width: 660px;
     height: 590px;
     flex-shrink: 0;
-    border-radius: 40px;
 }
 .img-about-3 {
     transform: scale(1.1);
