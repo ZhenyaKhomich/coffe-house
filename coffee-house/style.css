@@ -444,7 +444,7 @@ a {
     flex-direction: column;
     gap: 40px;
 }
-.img-about-img{
+.img-about-img {
     display: flex;
     position: relative;
     overflow: hidden;
