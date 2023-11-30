@@ -27,7 +27,12 @@
     * {
         box-sizing: border-box;
     }
-    .nav-menu-list {
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .block-burger-menu {
         display: flex;
         flex-direction: column;
         gap: 60px;
@@ -36,12 +41,17 @@
         width: 768px;
         height: 924px;
         padding: 60px 40px;
-       display: none;
-       border: 2px solid red;
+       border: 2px solid rgb(65, 7, 7);
        z-index: 1;
        position: relative;
+       align-items: center;
+       display: none;
     }
-    .nav-menu-list-item a {
+    .nav-menu-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-menu-list-item a, .menu {
         color: var(--text-dark, #403F3D);
         text-align: center;
         font-feature-settings: 'clig' off, 'liga' off;
@@ -51,8 +61,11 @@
         font-weight: 600;
         line-height: 125%; 
     }
+    .cup {
+    width: 34px;
+    }
     .menu-cup {
-        display: none;
+        display: non;
     }
     .burger-icon {
         display: flex;
@@ -64,12 +77,15 @@
         width: 44px;
         height: 44px;
         gap: 6.5px;
-        margin: 8px 0px 0px 0px;
+        margin: 10px 0px 0px 0px;
     }
     .burger-line {
         width: 16px;
         height: 1.5px;
         background-color: #403f3d;
+    }
+    .block-burger-menu {
+        width: auto;
     }
     .section-enjoy {
         background-image: url('./assets/img/container-hero.png');
@@ -142,26 +158,26 @@
     .text-mobile-bottom {
         width: 688px;
         height: auto;
-        margin: 40px 0px 1px -19px;
+        margin: 40px 0px 1px -18px;
     }
     .form {
-        margin: 44px 0px 0px -19px;
+        margin: 39px 0px 0px -19px;
     }
     .form-1 {
         width: 200px;
         height: auto;
     }
     .mobile-button {
-        margin: -4px 0px 0px 0px;
+        margin: -4px 0px 0px 1px;
     }
     .img-phone {
-        margin: 4px 0px 0px 12px;
+        margin: 0px 0px 0px 12px;
 
     }
     .container-footer {
         flex-direction: column;
         gap: 90px;
-        margin: 103px 0px 20px 0px;
+        margin: 100px 0px 20px 0px;
         padding: 100px 60px;
     }
     .footer-text-left {

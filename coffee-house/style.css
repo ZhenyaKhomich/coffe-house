@@ -25,6 +25,12 @@ html {
     margin: 4px 0px 19px 0px;
     height: 60px;
 }
+.block-burger-menu {
+    display: flex;
+    flex-direction: row;
+    width: 908px;
+    justify-content:space-between
+}
 .imgLogo{
     position: relative;
     cursor: pointer;
@@ -109,6 +115,9 @@ a {
     display: flex;
     flex-direction: column;
     gap: 100px;
+}
+.burger-icon {
+    display: none;
 }
 .section-enjoy {
    display: flex;
@@ -425,7 +434,6 @@ a {
     gap: 40px;
     align-self: stretch;
     flex-wrap: wrap;
-    margin: 0px 0px 0px 0px;
     margin: 0px auto;
 }
 .img-block-1{
@@ -485,7 +493,6 @@ a {
     align-items: center;
     gap: 100px;
     align-self: stretch; 
-   
 }
 .block-down{
     display: flex;
@@ -510,7 +517,7 @@ a {
     align-self: stretch;
     height: auto;
     width: 630px;
-    margin: -5px 0px 0px 2px;
+    margin: -6px 0px 0px 1px;
 }
 .download {
     color: var(--text-accent, #B0907A);
@@ -533,7 +540,7 @@ a {
     align-self: stretch;
     height: auto;
     width: 630px;
-    margin: 41px 0px 5px 5px;
+    margin: 41px 0px 0px 4px;
 }
 .form {
     display: flex;
@@ -550,7 +557,7 @@ a {
     gap: 8px;
     border-radius: 100px;
     border: 1px solid var(--border-dark, #665F55);
-    margin: -5px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
     cursor: pointer;
 }
 .mobile-button {
@@ -563,7 +570,7 @@ a {
     line-height: 140%; 
     border: none;
     background: var(--background-body, #E1D4C9);
-    margin: 0px 0px 0px 0px;
+    margin: -2px 0px 0px 0px;
     text-align: start;
 }
 .button-mobile {
@@ -608,11 +615,12 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: 140%;
+    margin:0px 5px 0px 0px;
 }
 .container-mobile-img {
     width: 630px;
     height: 630px;
-    margin: -2px 5px 0px -20px;
+    margin:2px 5px 0px -20px;
 }
 .footer {
     padding: 0px 40px 40px 40px;
@@ -712,7 +720,7 @@ a {
     justify-content: center;
     align-items: flex-start;
     gap: 16px;
-    margin: -17px 0px 0px 0px;
+    margin: -18px 0px 0px 0px;
 }
 .contacts-info {
     color: var(--text-light, #E1D4C9);
