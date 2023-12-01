@@ -3,12 +3,398 @@
         overflow: hidden;
         position: relative;
         height: 100%;
-
-
-
-        
+        margin: 0px auto;
     }
     * {
         box-sizing: border-box;
       }
+      .container {
+        padding: 0px 40px;
+        margin: 0px auto;
+    }
+    .block-burger-menu {
+        display: flex;
+        flex-direction: row;
+        width: 708px;
+        justify-content:space-between
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .container-footer {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 250px;
+        margin: 100px 0px 20px 0px;
+        padding: 100px 80px;
+    }
+    .footer-text-left {
+        width: 316px;
+        height: auto;
+        gap: 40px;
+        margin: 0px 0px 0px 0px;
+    }
+    .footer-text {
+        font-size: 32px;
+        line-height: 125%;
+        height: auto;
+        width: 317px;
+        margin: 0px 0px 0px 0px;
+        text-align: left;
+    }
+    .coffee-time {   
+        font-size: 32px;
+        line-height: 125%;
+        margin: 0px 0px 0px -1px;
+        letter-spacing: -0.4px;
+    }
+    .l {
+        letter-spacing: -0.9px;
+    }
+    .icon-footer-list {
+        margin: 41px 0px 0px -40px;
+        gap: 11.5px;
+    }
+    .iccn-link svg {
+        box-sizing: content-box;
+    }
+    .footer-text-right {
+        width: 316 px;
+        margin: 11px 0px 0px -56px;
+        justify-content: flex-start;
+        gap: 39.5px;
+    }
+    .info-contact {
+        margin: -20px 0px 0px -3px;
+    }
+    .text-contact {
+        margin: 16.5px 0px 0px 0px;
+    }
+
+}
+
+@media (max-width: 1024px) {
+    .page {width: 768px;
+        overflow: hidden;
+        position: relative;
+        height: 100%;
+        margin: 0px auto;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .wrap-header-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .burger-icon:hover {
+        cursor:pointer;
+    }
+    .block-burger-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        margin: 0px 0px 0px -50px;
+        background-color: #e1d4c9;
+        width: 768px;
+        height: 924px;
+        padding: 60px 40px;
+        border: 2px solid rgb(65, 7, 7);
+        z-index: 1;
+        position: relative;
+        align-items: center;
+        display: none;
+    }
+    .nav-menu-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-menu-list-item a, .menu {
+        color: var(--text-dark, #403F3D);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%; 
+    }
+    .cup {
+    width: 34px;
+    }
+    .menu-cup {
+        display: non;
+    }
+    .burger-icon {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100px;
+        border: 1px solid var(--border-dark, #665F55);
+        width: 44px;
+        height: 44px;
+        gap: 6.5px;
+        margin: 8px 0px 0px 0px;
+    }
+    .burger-line {
+        width: 16px;
+        height: 1.5px;
+        background-color: #403f3d;
+    }
+    .block-burger-menu {
+        width: auto;
+    }
+
+
+
+
+    
+    .behind {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        align-self: stretch;
+    }
+    .behind-text {
+        color: var(--text-dark, #403F3D);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 60px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%; 
+        width: 688px;
+        margin: -20px 0px 0px -1px;
+        height: auto;
+    }
+    .amazing {
+        font-size: 59px;
+        margin: 0px 11px 0px 0px;
+        letter-spacing: 0px;
+    }
+    .cu {
+        letter-spacing: -1px;
+    }
+    .box-img-menu {
+        gap: 40px;
+        flex-wrap: wrap;
+        margin: 0px 0px -1px 15px;
+        width: 688px; 
+    }
+    .box-menu-5, .box-menu-6, .box-menu-7, .box-menu-8 {
+        display: none;
+    }
+    .block-about-drink {
+        width: 310px;
+        height: 196px;
+    }
+    .about-drink {
+        width: 270px;
+    } 
+    .price-drink {
+        margin: auto 0px 4px 0px;
+    }
+    .split {
+        opacity: 1;
+    }   
+    .split-img {
+        display: flex;
+        position: absolute;
+        width: 60px;
+        height: 60px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 100px;
+        border: 1px solid var(--border-dark, #665F55);
+        margin: -4px 0px 0px 299px;
+    }
+    
+
+
+
+
+    .container-footer {
+        flex-direction: column;
+        gap: 90px;
+        margin: 155px 0px 20px 0px;
+        padding: 100px 60px;
+    }
+    .footer-text-left {
+        width: 568px;
+        height: auto;
+        gap: 40px;
+        margin: 2px 0px 0px -6px;
+    }
+    .footer-text {
+        font-size: 60px;
+        line-height: 125%;
+        height: auto;
+        width: 568px;
+        margin: 0px 0px 0px 0px;
+        text-align: left;
+    }
+    .coffee-time {   
+        font-size: 60px;
+        line-height: 125%;
+        margin: 0px 0px 0px -1px;
+        letter-spacing: -0.4px;
+    }
+    .icon-footer-list {
+        margin: 40.5px 0px 0px -37px;
+        gap: 11.5px;
+    }
+    .iccn-link svg {
+        box-sizing: content-box;
+    }
+    .footer-text-right {
+        margin: 26px 0px 0px -308px;
+        justify-content: flex-start;
+        gap: 39px;
+    }
+    .info-contact {
+        margin: -20px 0px 0px -3px;
+    }
+    .text-contact {
+        margin: 16.5px 0px 0px 0px;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 767px) {
+    .page {width: 380px;
+        overflow: hidden;
+        position: relative;
+        height: 100%;
+        margin: 0px auto;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .container {
+        padding: 20px 40px;
+        margin: 0px auto;
+    }
+    .wrap-header-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .block-burger-menu {
+        display: flex;
+        flex-direction: column;
+        gap: 60px;
+        margin: 0px 0px 0px -50px;
+        background-color: #e1d4c9;
+        width: 768px;
+        height: 924px;
+        padding: 60px 40px;
+        border: 2px solid rgb(65, 7, 7);
+        z-index: 1;
+        position: relative;
+        align-items: center;
+        display: none;
+    }
+    .nav-menu-list {
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-menu-list-item a, .menu {
+        color: var(--text-dark, #403F3D);
+        text-align: center;
+        font-feature-settings: 'clig' off, 'liga' off;
+        font-family: Inter;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 125%; 
+    }
+    .burger-icon {
+        margin: 8px 0px 0px 0px;
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .container-footer {
+        flex-direction: column;
+        gap: 40px;
+        margin: 100px 0px 20px 0px;
+        padding: 60px 16px;
+    }
+    .footer-text-left {
+        width: 316px;
+        height: auto;
+        gap: 40px;
+        margin: 0px 0px 0px 0px;
+    }
+    .footer-text {
+        font-size: 32px;
+        line-height: 125%;
+        height: auto;
+        width: 317px;
+        margin: 0px 0px 0px 0px;
+        text-align: left;
+    }
+    .coffee-time {   
+        font-size: 32px;
+        line-height: 125%;
+        margin: 0px 0px 0px -1px;
+        letter-spacing: -0.4px;
+    }
+    .l {
+        letter-spacing: -0.9px;
+    }
+    .icon-footer-list {
+        margin: 41px 0px 0px -40px;
+        gap: 11.5px;
+    }
+    .iccn-link svg {
+        box-sizing: content-box;
+    }
+    .footer-text-right {
+        width: 316 px;
+        margin: 11px 0px 0px -56px;
+        justify-content: flex-start;
+        gap: 39.5px;
+    }
+    .info-contact {
+        margin: -20px 0px 0px -3px;
+    }
+    .text-contact {
+        margin: 16.5px 0px 0px 0px;
+    }
 }

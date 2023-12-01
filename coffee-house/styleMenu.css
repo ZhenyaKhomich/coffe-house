@@ -17,11 +17,13 @@ html {
 }
 .container {
     padding: 0px 40px;
+    margin: 0px auto;
 }
 .wrap-header-menu {
     display: flex;
     justify-content: space-between;
     margin: 5px 0px 40px 0px;
+    height: 60px;
 }
 .imgLogo{
     position: relative;
@@ -422,6 +424,9 @@ input:checked ~ .cake-label:after {
 }
 .price-drink-blok p {
     margin: px 0px 0px 0px;
+}
+.split {
+    opacity: 0;
 }
 .footer {
     padding: 0px 40px 40px 40px;
