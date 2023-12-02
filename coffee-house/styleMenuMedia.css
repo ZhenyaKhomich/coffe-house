@@ -179,7 +179,7 @@
         font-weight: 600;
         line-height: 125%; 
         width: 688px;
-        margin: -20px 0px 0px -1px;
+        margin: -20px 0px 0px -3px;
         height: auto;
     }
     .amazing {
@@ -198,6 +198,9 @@
     }
     .box-menu-5, .box-menu-6, .box-menu-7, .box-menu-8 {
         display: none;
+    }
+    .img-drink {
+        transform: translateX(-4px) scale(1.1);
     }
     .block-about-drink {
         width: 310px;
