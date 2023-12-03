@@ -1,24 +1,56 @@
-@media (max-width: 1439px) {
-    .page {width: 1024px;
-        overflow: hidden;
-        position: relative;
-        height: 100%;
-        margin: 0px auto;
+@medi (max-width: 1400px) {
+    .box-menu-block-1, .box-menu-block-2  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+        max-width: 1360px;
     }
-    * {
-        box-sizing: border-box;
-      }
-      .container {
-        padding: 0px 40px;
-        margin: 0px auto;
-    }
+}
+
+
+@media (max-width: 1285px) {
     .block-burger-menu {
         display: flex;
         flex-direction: row;
-        width: 708px;
+        width: 790px;
         justify-content:space-between
     }
-    
+    .box-menu-block-1, .box-menu-block-2  {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 10px;
+        max-width: 1360px;
+    }
+}
+@media (max-width: 1135px) {
+    .block-burger-menu {
+        display: flex;
+        flex-direction: row;
+        width: 710px;
+        justify-content:space-between
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .block-burger-menu {
+        display: flex;
+        flex-direction: row;
+        width: 620px;
+        justify-content:space-between
+    }
+}
+
+@media (max-width: 900px) {
+    .block-burger-menu {
+        display: flex;
+        flex-direction: row;
+        width: 590px;
+        justify-content:space-between
+    }
+}
 
 
 
@@ -82,10 +114,10 @@
         margin: 16.5px 0px 0px 0px;
     }
 
-}
 
-@media (max-width: 1024px) {
-    .page {width: 768px;
+
+@media (max-width: 768px) {
+    .page {max-width: 768px;
         overflow: hidden;
         position: relative;
         height: 100%;
@@ -132,7 +164,7 @@
         line-height: 125%; 
     }
     .cup {
-    width: 34px;
+        width: 34px;
     }
     .menu-cup {
         display: non;
