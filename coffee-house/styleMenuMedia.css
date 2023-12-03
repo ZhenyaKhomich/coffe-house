@@ -1,4 +1,4 @@
-@medi (max-width: 1400px) {
+@media (max-width: 1400px) {
     .box-menu-block-1, .box-menu-block-2  {
         display: flex;
         flex-direction: row;
@@ -50,29 +50,20 @@
         width: 590px;
         justify-content:space-between
     }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .container-footer {
-        flex-direction: row;
+    .block-about-drink {
+        display: flex;
+        padding: 20px;
+        flex-direction: column;
         justify-content: space-between;
-        gap: 250px;
-        margin: 100px 0px 20px 0px;
-        padding: 100px 80px;
+        align-items: flex-start;
+        flex: 1 0 0;
+        align-self: stretch;
+        width: 100%; /* добавил max*/
+        height: 200px;
     }
-    .footer-text-left {
-        width: 316px;
+
+  .footer-text-left {
+        max-width: 316px;
         height: auto;
         gap: 40px;
         margin: 0px 0px 0px 0px;
@@ -81,7 +72,7 @@
         font-size: 32px;
         line-height: 125%;
         height: auto;
-        width: 317px;
+        width: 100%;
         margin: 0px 0px 0px 0px;
         text-align: left;
     }
@@ -102,7 +93,7 @@
         box-sizing: content-box;
     }
     .footer-text-right {
-        width: 316 px;
+        max-width: 316 px;
         margin: 11px 0px 0px -56px;
         justify-content: flex-start;
         gap: 39.5px;
@@ -113,10 +104,10 @@
     .text-contact {
         margin: 16.5px 0px 0px 0px;
     }
+}
 
 
-
-@media (max-width: 768px) {
+@media (max-width: 770px) {
     .page {max-width: 768px;
         overflow: hidden;
         position: relative;
@@ -189,11 +180,6 @@
     .block-burger-menu {
         width: auto;
     }
-
-
-
-
-    
     .behind {
         display: flex;
         flex-direction: column;
@@ -211,7 +197,7 @@
         font-weight: 600;
         line-height: 125%; 
         width: 688px;
-        margin: -20px 0px 0px -3px;
+        margin: 0px 0px 0px -3px;
         height: auto;
     }
     .amazing {
@@ -222,17 +208,49 @@
     .cu {
         letter-spacing: -1px;
     }
+    .box-menu-block-1{
+        display: flex;
+        max-width: 688px;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 41px;
+        align-self: stretch;
+        flex-wrap: wrap;
+        margin:-2px 0px 0px -17px;
+    }
+    .box-menu {
+        width: 308px;
+        max-width: 100%;
+    }
+    .block-about-drink {
+        max-width: 270px;
+        height: auto;
+        align-self: stretch;
+    }
+    .block-about-drink-text {
+        max-width: 270px;
+        height: auto;
+        align-self: stretch;
+    }
+    .name-drink {
+        width: 300px;
+    }
     .box-img-menu {
         gap: 40px;
         flex-wrap: wrap;
         margin: 0px 0px -1px 15px;
-        width: 688px; 
+        max-width: 688px; 
     }
     .box-menu-5, .box-menu-6, .box-menu-7, .box-menu-8 {
         display: none;
     }
     .img-drink {
-        transform: translateX(-4px) scale(1.1);
+        transform: scale(1);
+        width: 350px;
+        height: 340px;
+        flex-shrink: 0;
+        margin: -15px 0px -1px 0px;
     }
     .block-about-drink {
         width: 310px;
@@ -257,24 +275,27 @@
         flex-shrink: 0;
         border-radius: 100px;
         border: 1px solid var(--border-dark, #665F55);
-        margin: -4px 0px 0px 299px;
+        margin: -41px 0px 0px 298px;
     }
-    
-
-
-
-
+    .footer-text-left {
+        max-width: 568px;
+        height: auto;
+        gap: 40px;
+        margin: 2px 0px 0px -6px;
+    }
     .container-footer {
         flex-direction: column;
         gap: 90px;
-        margin: 155px 0px 20px 0px;
+        margin: 120px 0px 20px 0px;
         padding: 100px 60px;
+        
     }
     .footer-text-left {
         width: 568px;
         height: auto;
         gap: 40px;
-        margin: 2px 0px 0px -6px;
+        margin: 0px 0px 0px -3px;
+        flex-shrink: 1;
     }
     .footer-text {
         font-size: 60px;
@@ -298,7 +319,7 @@
         box-sizing: content-box;
     }
     .footer-text-right {
-        margin: 26px 0px 0px -308px;
+        margin: 22px 0px 0px -308px;
         justify-content: flex-start;
         gap: 39px;
     }
@@ -318,8 +339,8 @@
 
 
 
-@media (max-width: 767px) {
-    .page {width: 380px;
+@media (max-width: 760px) {
+    .page {max-width: 760px;
         overflow: hidden;
         position: relative;
         height: 100%;
