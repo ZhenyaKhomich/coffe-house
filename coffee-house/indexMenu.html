@@ -15,61 +15,69 @@
 <body>
   <div class="page">
     <header class="header container">
-      <div class="cont">
-        <div class="wrap-header-menu">
-          <div class="imgLogo"><a href="./index.html">
-            <img src="./assets/icon/Ellipse4.png" alt="logo" class="imgLogo1">
-            <img src="./assets/icon/Resource.png" alt="logo" class="imgLogo2">
-            <img src="./assets/icon/CoffeeHouse.png" alt="logo" class="imgLogo3">
-            </a>
-          </div>
-            <div class="menu-header">
-              <nav class="nav-menu">
-                <ul class="nav-menu-list">
-                  <li class="nav-menu-list-item">
-                    <a class="nav-menu-list-item-link" href="./index.html#FavoriteCoffee">Favorite coffee</a>
-                  </li>
-                  <li class="nav-menu-list-item">
-                    <a class="nav-menu-list-item-link" href="./index.html#About">About</a>
-                  </li>
-                  <li class="nav-menu-list-item">
-                    <a class="nav-menu-list-item-link" href="./index.html#MobileApp">Mobile app</a>
-                  </li>
-                  <li class="nav-menu-list-item">
-                    <a class="nav-menu-list-item-link" href="#CountactUs">Contact us</a>
-                  </li>
-                </ul>
-              </nav>
-            </div>
-            <div class="nav-menu">
-              <form action="#" class="title-menu">
-                <button class="menu-cup" disabled><span class="menu">Menu</span><img src="./assets/icon/coffee-cup.png" alt="cup" class="cup"></button>
-              </form>
-            </div>
-          </div>
+      <div class="wrap-header-menu">
+        <div class="imgLogo"><a href="./index.html">
+          <img src="./assets/icon/Ellipse4.png" alt="logo" class="imgLogo1">
+          <img src="./assets/icon/Resource.png" alt="logo" class="imgLogo2">
+          <img src="./assets/icon/CoffeeHouse.png" alt="logo" class="imgLogo3">
+          </a>
         </div>
-        </header>
+      <div class="block-burger-menu">
+        <div class="menu-header">
+          <nav class="nav-menu">
+            <ul class="nav-menu-list">
+              <li class="nav-menu-list-item">
+                <a class="nav-menu-list-item-link" href="#FavoriteCoffee">Favorite coffee</a>
+              </li>
+              <li class="nav-menu-list-item">
+                <a class="nav-menu-list-item-link" href="#About">About</a>
+              </li>
+              <li class="nav-menu-list-item">
+                <a class="nav-menu-list-item-link" href="#MobileApp">Mobile app</a>
+              </li>
+              <li class="nav-menu-list-item">
+                <a class="nav-menu-list-item-link" href="#ContactUs">Contact us</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div class="nav-menu">
+          <form action="./indexMenu.html" class="title-menu">
+            <button class="menu-cup"><span class="menu">Menu</span><img src="./assets/icon/coffee-cup.png" alt="cup" class="cup"></button>
+          </form>
+        </div>
+        </div>
+        <div class="burger-icon">
+          <div class="burger-line"></div>
+          <div class="burger-line"></div>
+        </div>
+      </div>
+    </header>
         <main class="main container">
           <div class="cont">
             <section class="behind Menu">
-              <h1 class="behind-text"><span class='i'>Behi</span>nd <span class='c'>each o</span>f ou<span class='r'>r c</span>ups hides an<span class='q'>&nbsp;</span><span class='amazing'>amazing surprise</span></h1>
+              <div class="beh-text-cont">
+                <h1 class="behind-text"><span class='i'>Behi</span>nd <span class='c'>each o</span>f ou<span class='r'>r c</span>up<span class='cu'>s h</span>ides a<span class='nn'>n </span><span class='q'>&nbsp;</span><span class='amazing'>amazing surprise</span></h1>
+              </div>
               <div class="carusel">
                 <div class="carusel-dot dot-coffe-1">
                   <input class="coffee-input" type="radio" id="coffee" name="menu-coffe" checked>
                   <label class="coffee-label" for="coffee"><img src="./assets/icon/cup.png" alt="cup" class="img-dot"><span class='log-text'>Coffee</span></label>
                 </div>
-                <div class="carusel-dot">
-                  <input class="tea-input" type="radio" id="tea" name="menu-coffe">
-                  <label class="tea-label" for="tea"><img src="./assets/icon/pot.png" alt="pot" class="img-dot"><span class='log-text'>Tea</span></label>
+                <div class="carusel-dot" >
+                  <input class="tea-input"  type="radio" id="tea" name="menu-coffe">
+                  <label class="tea-label" id="a-1" for="tea"><img src="./assets/icon/pot.png" alt="pot" class="img-dot"><span class='log-text' id="a-2">Tea</span></label>
                 </div>
                 <div class="carusel-dot">
                   <input class="cake-input" type="radio" id="cake" name="menu-coffe">
-                  <label class="cake-label" for="cake"><img src="./assets/icon/cake.png" alt="cake" class="img-dot"><span class='log-text'>Dessert</span></label>
+                  <label class="cake-label" id="a-3" for="cake"><img src="./assets/icon/cake.png" alt="cake" class="img-dot"><span class='log-text' id="a-4">Dessert</span></label>
                 </div>
               </div>
-          </section>
+            </section>
           <div class='box-img-menu'>
-              <div class="box-menu">
+            <div class="box-menu-block-1">
+            
+              <div class="box-menu box-menu-1">
                 <div class="img-c">
                   <img src="./assets/img/coffee-1.png" alt="img-drink" class="img-drink">
                 </div>
@@ -83,7 +91,7 @@
                    </div>
                   </div>
               </div>
-              <div class="box-menu">
+              <div class="box-menu box-menu-2">
                 <div class="img-c">
                   <img src="./assets/img/coffee-2.png" alt="img-drink" class="img-drink">
                 </div>
@@ -97,7 +105,7 @@
                   </div>
                 </div>
               </div>
-              <div class="box-menu">
+              <div class="box-menu box-menu-3">
                 <div class="img-c">
                   <img src="./assets/img/coffee-3.png" alt="img-drink" class="img-drink">
                 </div>
@@ -111,7 +119,7 @@
                   </div>
                 </div>
               </div>
-              <div class="box-menu">
+              <div class="box-menu box-menu-4">
                 <div class="img-c">
                   <img src="./assets/img/coffee-4.png" alt="img-drink" class="img-drink">
                 </div>
@@ -125,69 +133,81 @@
                   </div>
                 </div>
               </div>
-              <div class="box-menu">
-                 <div class="img-c">
-                  <img src="./assets/img/coffee-5.png" alt="img-drink" class="img-drink">
-                </div>
-                <div class="block-about-drink">
-                  <div class='block-about-drink-text'>
-                    <p class="name-drink">Espresso</p>
-                    <p class="about-drink">Classic black coffee</p>
-                  </div>
-                  <div class="price-drink-block">
-                    <p class="price-drink">$4.50</p>
-                  </div>
-                </div>
-              </div>
-              <div class="box-menu">
+              
+            </div>
+            <div class="box-menu-block-2">
+              <div class="box-menu box-menu-5">
                 <div class="img-c">
-                  <img src="./assets/img/coffee-6.png" alt="img-drink" class="img-drink">
-                </div>
-                <div class="block-about-drink">
-                  <div class='block-about-drink-text'>
-                    <p class="name-drink">Latte</p>
-                    <p class="about-drink">Espresso coffee with the addition of steamed milk and dense milk foam</p>
-                  </div>
-                  <div class="price-drink-block">
-                    <p class="price-drink">$5.50</p>
-                  </div>
-                </div>
-              </div>
-              <div class="box-menu">
-                <div class="img-c">
-                  <img src="./assets/img/coffee-7.png" alt="img-drink" class="img-drink">
-                </div>
-                <div class="block-about-drink">
-                  <div class='block-about-drink-text'>
-                    <p class="name-drink">Latte macchiato</p>
-                    <p class="about-drink">Espresso with frothed milk and chocolate</p>
-                  </div>
-                  <div class="price-drink-block">
-                    <p class="price-drink">$5.50</p>
-                  </div>
-                </div>
-              </div>
-              <div class="box-menu">
-                <div class="img-c">
-                  <img src="./assets/img/coffee-8.png" alt="img-drink" class="img-drink">
-                </div>
-                <div class="block-about-drink">
-                  <div class='block-about-drink-text'>
-                    <p class="name-drink">Coffee with cognac</p>
-                    <p class="about-drink">Fragrant black coffee with cognac and whipped cream</p>
-                  </div>
-                  <div class="price-drink-block">
-                    <p class="price-drink">$6.50</p>
-                  </div>
-                </div>
-              </div>
+                 <img src="./assets/img/coffee-5.png" alt="img-drink" class="img-drink">
+               </div>
+               <div class="block-about-drink">
+                 <div class='block-about-drink-text'>
+                   <p class="name-drink">Espresso</p>
+                   <p class="about-drink">Classic black coffee</p>
+                 </div>
+                 <div class="price-drink-block">
+                   <p class="price-drink">$4.50</p>
+                 </div>
+               </div>
+             </div>
+             <div class="box-menu box-menu-6">
+               <div class="img-c">
+                 <img src="./assets/img/coffee-6.png" alt="img-drink" class="img-drink">
+               </div>
+               <div class="block-about-drink">
+                 <div class='block-about-drink-text'>
+                   <p class="name-drink">Latte</p>
+                   <p class="about-drink">Espresso coffee with the addition of steamed milk and dense milk foam</p>
+                 </div>
+                 <div class="price-drink-block">
+                   <p class="price-drink">$5.50</p>
+                 </div>
+               </div>
+             </div>
+             <div class="box-menu box-menu-7">
+               <div class="img-c">
+                 <img src="./assets/img/coffee-7.png" alt="img-drink" class="img-drink">
+               </div>
+               <div class="block-about-drink">
+                 <div class='block-about-drink-text'>
+                   <p class="name-drink">Latte macchiato</p>
+                   <p class="about-drink">Espresso with frothed milk and chocolate</p>
+                 </div>
+                 <div class="price-drink-block">
+                   <p class="price-drink">$5.50</p>
+                 </div>
+               </div>
+             </div>
+             <div class="box-menu box-menu-8">
+               <div class="img-c">
+                 <img src="./assets/img/coffee-8.png" alt="img-drink" class="img-drink">
+               </div>
+               <div class="block-about-drink">
+                 <div class='block-about-drink-text'>
+                   <p class="name-drink">Coffee with cognac</p>
+                   <p class="about-drink">Fragrant black coffee with cognac and whipped cream</p>
+                 </div>
+                 <div class="price-drink-block">
+                   <p class="price-drink">$6.50</p>
+                 </div>
+               </div>
+             </div>
+             
+            </div>
+            <div class="split">
+              <span class="split-img"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                <path d="M21.8883 13.5C21.1645 18.3113 17.013 22 12 22C6.47715 22 2 17.5228 2 12C2 6.47715 6.47715 2 12 2C16.1006 2 19.6248 4.46819 21.1679 8" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M17 8H21.4C21.7314 8 22 7.73137 22 7.4V3" stroke="#403F3D" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </span>
+            </div>
           </div>
         </div>
         </main>
         <footer class="footer container">
-          <div class="container-footer cont" id="CountactUs">
+          <div class="container-footer Container" id="ContactUs">
             <div class="footer-text-left">
-              <h2 class="footer-text">Sip, Sa<span class='v'>vo</span>r<span class='m'>, S</span>mile. <span class='coffee-time'>It’s coffee time!</span></h2>
+              <h2 class="footer-text">Sip, Savor, Smile<span class='l'>. </span><span class='coffee-time'>It’s coffee time!</span></h2>
               <div class="icon-footer">
                 <ul class="icon-footer-list">
                   <li class="icon-item">
@@ -197,9 +217,9 @@
                   </li>
                   <li class="icon-item">
                     <a href="https://www.instagram.com/accounts/login/" class="iccn-link"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                      <path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"  stroke-linecap="round" stroke-linejoin="round"/>
-                      <path d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z" />
-                      <path d="M17.5 6.51L17.51 6.49889"  stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z" stroke-linecap="round" stroke-linejoin="round"/>
+                      <path d="M3 16V8C3 5.23858 5.23858 3 8 3H16C18.7614 3 21 5.23858 21 8V16C21 18.7614 18.7614 21 16 21H8C5.23858 21 3 18.7614 3 16Z"/>
+                      <path d="M17.5 6.51L17.51 6.49889" stroke-linecap="round" stroke-linejoin="round"/>
                     </svg></a>
                   </li>
                   <li class="icon-item">
@@ -229,7 +249,7 @@
               </div>
             </div>
           </div>
-        </footer>
+        </footer>  
   </div>  
 </body>
 </html>

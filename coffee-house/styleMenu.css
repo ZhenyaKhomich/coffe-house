@@ -16,12 +16,25 @@ html {
     scroll-behavior: smooth;
 }
 .container {
+    max-width: 1440px;
     padding: 0px 40px;
+    margin: 0px auto;
+    box-sizing: border-box;
 }
 .wrap-header-menu {
     display: flex;
     justify-content: space-between;
-    margin: 5px 0px 40px 0px;
+    margin: 4px 0px 19px 0px;
+    height: 60px;
+}
+.block-burger-menu {
+    display: flex;
+    flex-direction: row;
+    width: 908px;
+    justify-content:space-between
+}
+.burger-icon {
+    display: none;
 }
 .imgLogo{
     position: relative;
@@ -113,6 +126,10 @@ a {
     align-items: center;
     gap: 40px;
     align-self: stretch;
+    max-width: 1360px;
+}
+.beh-text-cont{
+    max-width: 800px;
 }
 .behind-text {
     color: var(--text-dark, #403F3D);
@@ -123,8 +140,8 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: 125%; 
-    width: 800px;
-    margin: -3px 0px 0px 0px;
+    width: 100%; 
+    margin: -1px 0px 0px 0px;
 }
 .amazing {
     color: var(--text-accent, #B0907A);
@@ -143,6 +160,9 @@ a {
 .c {
     letter-spacing: -0.5px;
 }
+.nn {
+    letter-spacing: -5px;
+}
 .q {
     letter-spacing: -5px;
 }
@@ -151,19 +171,19 @@ a {
     justify-content: center;
     align-items: center;
     gap: 10.4px;
-    margin: -2px 1px 38px -2px;
+    margin: 0px 2px 39px -1.5px;
 }
 .img-dot {
     border-radius: 100px;
     background: var(--border-light, #C1B6AD);
-    padding: 6px 7px;
+    padding: 6px 6px;
     justify-content: center;
     align-items: center;
     color: var(--text-dark, #403F3D);
     text-align: center;
     font-feature-settings: 'clig' off, 'liga' off;
     gap: 8px;
-    margin: 6px 9px 0px 0px;
+    margin: 6px 11px 0px 0px;
 }
 input {
     display: none;
@@ -292,25 +312,34 @@ input:checked ~ .cake-label:after {
 }
 .box-img-menu {
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
     align-content: flex-start;
-    gap: 40px;
-    flex-wrap: wrap;
-    margin: 0px 0px -1px -0.5px;
-    width: 1440px; 
+    gap: 39px;
+    flex-wrap: wra; 
+    margin: 0px 0px -2px -0.5px;
+    widt: 100%; 
 }
+
 .box-menu {
     border-radius: 40px;
     border: 1px solid var(--border-light, #C1B6AD);
-    width: 308px;
+    width: 22.63%;
     flex-shrink: 0;
     display: flex;
-    height: 506px;
+    max-height: 506px;
     flex-direction: column;
     align-items: center;  
     cursor: pointer;
     display: inline-block;
     overflow: hidden;
+}
+.box-menu-block-1, .box-menu-block-2  {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 40px;
+    max-width: 1360px;
 }
 .box-menu .img-drink {
     transition: 1s;
@@ -329,10 +358,22 @@ input:checked ~ .cake-label:after {
     object-fit: cover;
 }
 .img-c {
-    width: 310px;
-    height: 310px;
+    max-width: 310px;
+    max-height: 310px;
     overflow: hidden;
     border-radius: 40px;
+}
+.img-c img {
+    width: 100%;
+}
+.name-drink {
+    width: 100%;
+}
+.about-drink {
+    width: 100%;
+}
+.price-drink {
+    width: 100%;
 }
 
 .block-about-drink {
@@ -343,12 +384,13 @@ input:checked ~ .cake-label:after {
     align-items: flex-start;
     flex: 1 0 0;
     align-self: stretch;
-    width: 270px;
+    max-width: 90%; 
     height: auto;
-    margin: 5px 0px 0px -1px;
+    margin: 6px 0px 0px -2px;
 }
 .block-about-drink-text {
     margin: 0px 0px 0px 0px;
+    max-width: 270px; 
 }
 .name-drink {
     color: var(--text-dark, #403F3D);
@@ -360,7 +402,7 @@ input:checked ~ .cake-label:after {
     line-height: 125%; 
     align-self: stretch;
     text-align: left;
-    width: 270px;
+    widt: 270px;
     height: auto;
     margin: -4.5px 0px 0px -1px;
 }
@@ -387,7 +429,7 @@ input:checked ~ .cake-label:after {
     align-items: flex-start;
     flex: 1 0 0;
     align-self: stretch;
-    width: 270px;
+    width: 100%; 
     height: 156px;
 }
 .block-about-drink-text {
@@ -419,9 +461,10 @@ input:checked ~ .cake-label:after {
     flex: 1 0 0;
     align-self: stretch;
     text-align: left;
+    max-width: 270px;
 }
-.price-drink-blok p {
-    margin: px 0px 0px 0px;
+.split {
+    opacity: 0;
 }
 .footer {
     padding: 0px 40px 40px 40px;
@@ -436,7 +479,15 @@ input:checked ~ .cake-label:after {
     align-self: stretch;
     border-radius: 40px;
     background: var(--background-container, #665F55);
-    margin: 100px 0px 0px 0px;
+    margin: 33px 0px 20px 0px;
+}
+.footer-text-left {
+    width: 45.7%;
+    flex-shrink: 0;
+    min-width: 300px;
+}
+.footer-text-left {
+    min-width: 300px;
 }
 .footer-text {
     color: var(--text-light, #E1D4C9);
@@ -448,8 +499,8 @@ input:checked ~ .cake-label:after {
     line-height: 125%;
     align-self: stretch;
     height: auto;
-    width: 530px;
-    margin: -1px 0px 0px -3px;
+    max-width: 100%;
+    margin: 0px 0px 0px -3px;
     text-align: left;
 }
 .coffee-time {
@@ -500,7 +551,8 @@ input:checked ~ .cake-label:after {
     gap: 40px;
     flex: 1 0 0;
     text-align: left;
-    margin: 28px 0px 0px 2px;
+    margin: 25px 0px 0px 0px;
+    flex-shrink: 1;    
 }
 .footer-contact {
     color: var(--text-light, #E1D4C9);
@@ -513,7 +565,7 @@ input:checked ~ .cake-label:after {
     align-self: stretch;
 }
 .footer-contact-str {
-    margin: -15px 0px 0px -2px;
+    margin: -11px 0px 0px -2px;
 }
 .info-contact {
     display: flex;
@@ -521,7 +573,7 @@ input:checked ~ .cake-label:after {
     justify-content: center;
     align-items: flex-start;
     gap: 16px;
-    margin: -19px 0px 0px -1px;
+    margin: -19px 0px 0px -2px;
 }
 .contacts-info {
     color: var(--text-light, #E1D4C9);
@@ -536,9 +588,9 @@ input:checked ~ .cake-label:after {
     color: var(--text-light, #E1D4C9);
 }
 .fot-cont-link:hover {
-    border-bottom: 2px solid #E1D4C9;
-    transition: 1s;
-    }
+border-bottom: 3px solid #E1D4C9;
+transition: 1s;
+}
 .tic {
     margin: 4px 0px 0px 0px;
 }
