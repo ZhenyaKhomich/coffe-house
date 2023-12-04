@@ -8,7 +8,6 @@
     }
 }
 
-
 @media (max-width: 1285px) {
     .block-burger-menu {
         display: flex;
@@ -24,6 +23,7 @@
         max-width: 1360px;
     }
 }
+
 @media (max-width: 1135px) {
     .block-burger-menu {
         display: flex;
@@ -32,7 +32,6 @@
         justify-content:space-between
     }
 }
-
 
 @media (max-width: 1000px) {
     .block-burger-menu {
@@ -58,10 +57,9 @@
         align-items: flex-start;
         flex: 1 0 0;
         align-self: stretch;
-        width: 100%; /* добавил max*/
+        width: 100%; 
         height: 200px;
     }
-
   .footer-text-left {
         max-width: 316px;
         height: auto;
@@ -106,7 +104,6 @@
     }
 }
 
-
 @media (max-width: 770px) {
     .page {max-width: 768px;
         overflow: hidden;
@@ -122,9 +119,7 @@
         flex-direction: row;
         justify-content: space-between;
     }
-    .burger-icon:hover {
-        cursor:pointer;
-    }
+    
     .block-burger-menu {
         display: flex;
         flex-direction: column;
@@ -329,10 +324,63 @@
     .text-contact {
         margin: 16.5px 0px 0px 0px;
     }
+    .imgLogo:hover {
+        background: none;
+        cursor: default;
+    }
+    .imgLogo a {
+        cursor: default;
+    }
+    .tea-label, .cake-label {
+        cursor:default;
+    }
+    input:checked ~ #a-1{
+        border-radius: 100px;
+        background: var(--background-container, #665F55);
+    }
+    input:checked ~ #a-2{
+        border-radius: 100px;
+        background: var(--background-container, #665F55);
+    }
+    input:checked ~ #a-3{
+        border-radius: 100px;
+        background: var(--background-container, #665F55);
+    }
+    input:checked ~ #a-4{
+        border-radius: 100px;
+        background: var(--background-container, #665F55);
+    }
+    .tea-label:hover, .cake-label:hover  {
+        background: none;
+        transition: 1s;
+    }
+    .log-text {
+        display: none;
+    }
+    .box-menu {
+        cursor:default;
+    }
+    .icon-item:hover svg{
+        stroke: #E1D4C9;
+        border-radius: 100px;
+        background-color:#665F55;
+        padding: 18px 18px 18px 18px;
+        justify-content: center;
+        align-items: center;
+        margin: 3px 0px 0px 0px;
+        transition: 999999999s;
+        cursor: default;
+    }
+    .text-contact a {
+        cursor: default;
+    }
+        .text-contact {
+    cursor: default;
+    }
+        .fot-cont-link:hover {
+    border-bottom: none;
+    }
 }
-
-
-
 
 @media (max-width: 760px) {
     .page {max-width: 760px;
@@ -403,11 +451,10 @@
         gap: 10px;
     }
     .box-menu {
-        width: 45%;
+        width: 45%; 
     }
     .block-about-drink {
         max-width: 100%;
-    
     }
     .name-drink {
         width: 100%;
@@ -429,14 +476,6 @@
         border: 1px solid var(--border-dark, #665F55);
         margin: 0px 0px 0px 0px;
     }
-
-
-
-
-
-
-
-
     .container-footer {
         flex-direction: column;
         gap: 40px;
@@ -486,7 +525,6 @@
         margin: 16.5px 0px 0px 0px;
     }
 }
-
 
 @media (max-width: 540px) {
     .page {max-width: 540px;
@@ -569,15 +607,6 @@
     }
 }
 
-
-
-
-
-
-
-
-
-
 @media (max-width: 400px) {
     .page {max-width: 380px;
         overflow: hidden;
@@ -596,9 +625,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }
-    .burger-icon:hover {
-        cursor:pointer;
     }
     .block-burger-menu {
         display: flex;
@@ -786,13 +812,11 @@
         border: 1px solid var(--border-dark, #665F55);
         margin: -39px -10px 0px 120px;
     }
-    
     .container-footer {
         flex-direction: column;
         gap: 90px;
         margin: 82px 0px 20px 0px;
         padding: 60px 16px;
-        
     }
     .footer-text-left {
         max-width: 380px;

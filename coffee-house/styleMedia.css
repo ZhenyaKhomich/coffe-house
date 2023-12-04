@@ -56,9 +56,8 @@
         padding: 17px 17px;
         transition: 1s;
     }
-    
-
 }
+
 @media (max-width: 1135px) {
     .block-burger-menu {
         display: flex;
@@ -210,8 +209,63 @@
         padding: 17px 17px;
         transition: 1s;
     }
+    .container-mobile-text{
+        display: flex;
+        flex-direction: column;
+        margin: 0px 0p 0px 0px;
+    }
+    .text-mobile-up {
+        max-width: 900px;
+        height: auto;
+        margin: -47px 0px 0px -21px;
+    }
+    .block-down{
+        max-width: 688px;
+        margin: 11px 24px 0px -43px;
+        
+    }
+    .text-mobile-up {
+        max-width: 688px;
+        font-size: 60px;
+        line-height: 125%;
+        margin: -56px 0px 0px 10px;
+    }
+    .download {
+        font-size: 60px;
+        line-height: 125%;
+        margin: 0px 1px 0px -1px;
+    } 
+    .small-text-dow {
+        width: 688px;
+    }
+    .text-mobile-bottom {
+        max-width: 688px;
+        height: auto;
+        margin: 40px 0px 1px 14px;
+    }
+    .form {
+        margin: 38px 0px 0px 13px;
+        flex-direction: row;
+        gap: 21.5px;
+    }
+    .form-1 {
+        width: 200px;
+        height: auto;
+    }
+    .mobile-button {
+        margin: -4px 0px 0px 1px;
+    }
+    .container-mobile-img {
+        max-width: 630px;
+        height: 630px;
+        margin:2px 5px 0px -20px;
+    }
+    .img-phone {
+        margin: 0px 0px 0px 12px;
+        max-width: 630px;
+        max-height: 630px;
+    }
 }
-
 
 @media (max-width: 780px) {
     .page {max-width: 768px;
@@ -233,9 +287,6 @@
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-    }
-    .burger-icon:hover {
-        cursor:pointer;
     }
     .block-burger-menu {
         display: flex;
@@ -375,19 +426,19 @@
     .e {
         letter-spacing: 1px;
     }
-     .img-about-2 {
+    .img-about-2 {
         display: none;
-     }
-     .img-about-3 {
+    }
+    .img-about-3 {
         display: none;
-     }
-     .img-block-1{
+    }
+    .img-block-1{
         gap:0px;
-     }
-     .img-block-2{
+    }
+    .img-block-2{
         gap:0px;
-     }
-     .img-about {
+    }
+    .img-about {
         margin: 44px 0px 44px 0px;
         display: flex;
         max-width: 768px;
@@ -395,8 +446,8 @@
         align-items: center;
         gap: 40px;
         align-self: stretch;
-     }
-     .img-about-1 {
+    }
+    .img-about-1 {
         border-radius: 20px;
         transform: scale(1.05);
         object-fit: cover;
@@ -476,7 +527,6 @@
         gap: 90px;
         margin: 100px 0px 20px 0px;
         padding: 100px 60px;
-        
     }
     .footer-text-left {
         width: 568px;
@@ -517,7 +567,62 @@
     .text-contact {
         margin: 16.5px 0px 0px 0px;
     }
-
+    .imgLogo, .prev, .next, .carusel-dot, .form-1 {
+        cursor: default;
+    }
+    .menu-enjoy-button:hover {
+        cursor: default;
+    }
+    .prev:hover svg, .next:hover svg {
+        stroke:#403F3D;
+        background-color:  #E1D4C9;
+        padding: 0px 0px 0px 0px;
+    }
+    .img-about-img:hover img {
+        transform: scale(1.05);
+        cursor: default;
+        transition: 1s;
+    }
+    .form-1:hover {
+        background: var(--background-container, #E1D4C9);
+        fill: #403F3D;
+    }
+    .form-1:hover .mobile-button{
+        background: var(--background-container, #E1D4C9);
+        color: #403F3D;
+        transition: 1s;
+    }
+    .form-1:hover svg {
+        fill: #403F3D;
+        transition: 1s;
+    }
+    .form-1:hover .textSmall{
+        color: #403F3D;  
+        transition: 1s;
+    }
+    .icon-item:hover svg{
+        stroke: #E1D4C9;
+        border-radius: 100px;
+        background-color:#665F55;
+        padding: 18px 18px 18px 18px;
+        justify-content: center;
+        align-items: center;
+        margin: 3px 0px 0px 0px;
+        transition: 999999999s;
+        cursor: default;
+    }
+    .icon-item a {
+        cursor: default; 
+    }
+    .text-contact  a{
+        cursor: default;
+    }
+    .text-contact{
+        cursor: default;
+    }
+    .fot-cont-link:hover {
+        border-bottom: none;
+    }
 }
 
 @media (max-width: 760px) {
@@ -565,7 +670,6 @@
     .block-down {
         max-width: 760px;
         margin: 0px 0px 0px 0px;
-
     }
     .text-mobile-up {
         width: 100%;
@@ -581,7 +685,6 @@
     .img-phone {
         margin: 0 px 0px 0px 0px;
         width: 100%;
-
     }
     .container-footer {
         flex-direction: column;
@@ -633,9 +736,6 @@
     }
 }
 
-
-
-
 @media (max-width: 610px) {
     .enjoy {
         font-size: 42px;
@@ -663,7 +763,6 @@
         font-weight: 600;
         line-height: 125%;
     }
-    
     .glass-tex{
         width: 100%;
     }
@@ -691,26 +790,9 @@
         line-height: 125%;
         margin: 0px 1px 0px -1px;
     } 
-
-    
-   
-   
-   
-
-
-
-
 }
     
-
-
-
-
-
-
-
-
-@media (max-width: 381px) {
+@media (max-width: 400px) {
     .page {width: 380px;
         overflow: hidden;
         position: relative;
@@ -984,6 +1066,11 @@
     }
     .text-contact {
         margin: 16.5px 0px 0px 0px;
+    }
+    .img-about-img:hover img {
+        transform: scale(1.0);
+        cursor: default;
+        transition: 1s;
     }
 }
 

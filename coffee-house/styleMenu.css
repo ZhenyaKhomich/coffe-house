@@ -126,10 +126,10 @@ a {
     align-items: center;
     gap: 40px;
     align-self: stretch;
-    max-width: 1360px;/* добавил*/
+    max-width: 1360px;
 }
 .beh-text-cont{
-    max-width: 800px; /* добавил*/
+    max-width: 800px;
 }
 .behind-text {
     color: var(--text-dark, #403F3D);
@@ -140,7 +140,7 @@ a {
     font-style: normal;
     font-weight: 600;
     line-height: 125%; 
-    width: 100%; /* изменил с 800px*/
+    width: 100%; 
     margin: -1px 0px 0px 0px;
 }
 .amazing {
@@ -316,15 +316,15 @@ input:checked ~ .cake-label:after {
     align-items: flex-start;
     align-content: flex-start;
     gap: 39px;
-    flex-wrap: wra; /* убрал*/
+    flex-wrap: wra; 
     margin: 0px 0px -2px -0.5px;
-    widt: 100%; /* изменил с  width 1440px*/
+    widt: 100%; 
 }
 
 .box-menu {
     border-radius: 40px;
     border: 1px solid var(--border-light, #C1B6AD);
-    width: 22.63%;/* изменил с  width  308px*/
+    width: 22.63%;
     flex-shrink: 0;
     display: flex;
     max-height: 506px;
@@ -364,16 +364,16 @@ input:checked ~ .cake-label:after {
     border-radius: 40px;
 }
 .img-c img {
-    width: 100%;/* добавил*/
+    width: 100%;
 }
 .name-drink {
-    width: 100%;/* добавил*/
+    width: 100%;
 }
 .about-drink {
-    width: 100%;/* добавил*/
+    width: 100%;
 }
 .price-drink {
-    width: 100%;/* добавил*/
+    width: 100%;
 }
 
 .block-about-drink {
@@ -384,13 +384,13 @@ input:checked ~ .cake-label:after {
     align-items: flex-start;
     flex: 1 0 0;
     align-self: stretch;
-    max-width: 90%; /* добавил max*/
+    max-width: 90%; 
     height: auto;
     margin: 6px 0px 0px -2px;
 }
 .block-about-drink-text {
     margin: 0px 0px 0px 0px;
-    max-width: 270px; /* добавил только этот параметр*/
+    max-width: 270px; 
 }
 .name-drink {
     color: var(--text-dark, #403F3D);
@@ -429,7 +429,7 @@ input:checked ~ .cake-label:after {
     align-items: flex-start;
     flex: 1 0 0;
     align-self: stretch;
-    width: 100%; /* добавил max*/
+    width: 100%; 
     height: 156px;
 }
 .block-about-drink-text {
@@ -463,7 +463,6 @@ input:checked ~ .cake-label:after {
     text-align: left;
     max-width: 270px;
 }
-
 .split {
     opacity: 0;
 }
@@ -480,8 +479,7 @@ input:checked ~ .cake-label:after {
     align-self: stretch;
     border-radius: 40px;
     background: var(--background-container, #665F55);
-    margin: 34px 0px 20px 0px;
-   
+    margin: 33px 0px 20px 0px;
 }
 .footer-text-left {
     width: 45.7%;
@@ -489,7 +487,6 @@ input:checked ~ .cake-label:after {
     min-width: 300px;
 }
 .footer-text-left {
-
     min-width: 300px;
 }
 .footer-text {
