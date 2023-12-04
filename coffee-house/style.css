@@ -23,6 +23,7 @@ html {
 }
 .wrap-header-menu {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     margin: 4px 0px 19px 0px;
     height: 60px;
