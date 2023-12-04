@@ -331,6 +331,9 @@
     .imgLogo a {
         cursor: default;
     }
+    .behind-text {
+        cursor:default;
+    }
     .tea-label, .cake-label {
         cursor:default;
     }
@@ -359,6 +362,12 @@
     }
     .box-menu {
         cursor:default;
+    }
+    .footer-text, .footer-contact-str {
+        cursor:default;
+    }
+    .icon-item a {
+        cursor: default; 
     }
     .icon-item:hover svg{
         stroke: #E1D4C9;
@@ -605,6 +614,7 @@
         border: 1px solid var(--border-dark, #665F55);
         margin: 0px 0px 0px 0px;
     }
+    
 }
 
 @media (max-width: 400px) {

@@ -290,7 +290,7 @@
     }
     .block-burger-menu {
         display: flex;
-        flex-direction: column;
+        flex-direction: colum;
         gap: 60px;
         margin: 0px 0px 0px -50px;
         background-color: #e1d4c9;
@@ -622,6 +622,9 @@
     }
     .fot-cont-link:hover {
         border-bottom: none;
+    }
+    * {
+        cursor: default; 
     }
 }
 
