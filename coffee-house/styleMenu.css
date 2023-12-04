@@ -141,7 +141,7 @@ a {
     font-weight: 600;
     line-height: 125%; 
     width: 100%; /* изменил с 800px*/
-    margin: -3px 0px 0px 0px;
+    margin: -1px 0px 0px 0px;
 }
 .amazing {
     color: var(--text-accent, #B0907A);
@@ -159,6 +159,9 @@ a {
 }
 .c {
     letter-spacing: -0.5px;
+}
+.nn {
+    letter-spacing: -5px;
 }
 .q {
     letter-spacing: -5px;
@@ -312,7 +315,7 @@ input:checked ~ .cake-label:after {
     flex-direction: column;
     align-items: flex-start;
     align-content: flex-start;
-    gap: 40px;
+    gap: 39px;
     flex-wrap: wra; /* убрал*/
     margin: 0px 0px -2px -0.5px;
     widt: 100%; /* изменил с  width 1440px*/
@@ -383,7 +386,7 @@ input:checked ~ .cake-label:after {
     align-self: stretch;
     max-width: 90%; /* добавил max*/
     height: auto;
-    margin: 5px 0px 0px -1px;
+    margin: 6px 0px 0px -2px;
 }
 .block-about-drink-text {
     margin: 0px 0px 0px 0px;
@@ -477,7 +480,7 @@ input:checked ~ .cake-label:after {
     align-self: stretch;
     border-radius: 40px;
     background: var(--background-container, #665F55);
-    margin: 27px 0px 20px 0px;
+    margin: 34px 0px 20px 0px;
    
 }
 .footer-text-left {
