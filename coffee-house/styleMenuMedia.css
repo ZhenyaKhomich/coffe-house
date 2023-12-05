@@ -104,7 +104,7 @@
     }
 }
 
-@media (max-width: 770px) {
+@media (max-width: 768px) {
     .page {max-width: 768px;
         overflow: hidden;
         position: relative;
