@@ -15,6 +15,55 @@ body {
 html {
     scroll-behavior: smooth;
 }
+@media (any-hover: hover) and (pointer:fine) {
+    .imgLogo:hover {
+        background: rgba(160, 160, 116, 0.5);
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    }
+    .nav-menu-list-item-link:hover{
+        border-bottom: 2px solid #403F3D; 
+        cursor: pointer;
+        transition: 0.5s ;
+    }
+    .tea-label:hover {
+        background: var(--background-container, #665F55);
+        transition: 1s;
+    }
+    .cake-label:hover {
+        background: var(--background-container, #665F55);
+        transition: 1s;
+    }
+    .tea-label:hover .log-text {
+        background: var(--background-container, #665F55);
+        opacity: 1;
+        z-index: 1;
+        transition: 1s;
+    }
+    .cake-label:hover .log-text {
+        background: var(--background-container, #665F55);
+        opacity: 1;
+        z-index: 1;
+        transition: 1s;
+    }
+    .box-menu:hover img{
+        transform: scale(1);
+    }
+    .icon-item:hover svg{
+        stroke: #403F3D;
+        border-radius: 100px;
+        background-color: #E1D4C9;
+        padding: 18px 18px 18px 18px;
+        justify-content: center;
+        align-items: center;
+        margin: 3px 0px 0px 0px;
+        transition: 1s;
+    }
+    .fot-cont-link:hover {
+        border-bottom: 3px solid #E1D4C9;
+        transition: 1s;
+        }
+}
 .container {
     max-width: 1440px;
     padding: 0px 40px;
@@ -40,11 +89,7 @@ html {
     position: relative;
     display: inline-block;
 }
-.imgLogo:hover {
-    background: rgba(160, 160, 116, 0.5);
-    border-radius: 50%;
-    transition: all 0.3s ease;
-}
+
 .imgLogo1{
     position: absolute;
     z-index: 0;
@@ -88,11 +133,7 @@ html {
     font-weight: 600;
     line-height: 150%;
 }
-.nav-menu-list-item-link:hover{
-    border-bottom: 2px solid #403F3D; 
-    cursor: pointer;
-    transition: 0.5s ;
-}
+
 ul {
     list-style-type: none;
 }
@@ -278,14 +319,7 @@ input:checked ~ .cake-label:after {
 .cake-label {
     cursor:pointer;
 }
-.tea-label:hover {
-    background: var(--background-container, #665F55);
-    transition: 1s;
-}
-.cake-label:hover {
-    background: var(--background-container, #665F55);
-    transition: 1s;
-}
+
 .log-text {
    position: absolute;
    margin: 10px 0px 0px 0px;
@@ -298,18 +332,7 @@ input:checked ~ .cake-label:after {
    line-height: 150%; 
    opacity: 0;
 }
-.tea-label:hover .log-text {
-    background: var(--background-container, #665F55);
-    opacity: 1;
-    z-index: 1;
-    transition: 1s;
-}
-.cake-label:hover .log-text {
-    background: var(--background-container, #665F55);
-    opacity: 1;
-    z-index: 1;
-    transition: 1s;
-}
+
 .box-img-menu {
     display: flex;
     flex-direction: column;
@@ -345,9 +368,7 @@ input:checked ~ .cake-label:after {
     transition: 1s;
     display: block;
 }
-.box-menu:hover img{
-    transform: scale(1);
-}
+
 .img-drink {
     width: 102%;
     height: 100%;
@@ -527,16 +548,7 @@ input:checked ~ .cake-label:after {
     border-radius: 100px;
     border: 1px solid var(--border-light, #C1B6AD);
 }
-.icon-item:hover svg{
-    stroke: #403F3D;
-    border-radius: 100px;
-    background-color: #E1D4C9;
-    padding: 18px 18px 18px 18px;
-    justify-content: center;
-    align-items: center;
-    margin: 3px 0px 0px 0px;
-    transition: 1s;
-}
+
 .iccn-link svg {
     stroke:#E1D4C9;
 }
@@ -587,10 +599,7 @@ input:checked ~ .cake-label:after {
 .text-contact a {
     color: var(--text-light, #E1D4C9);
 }
-.fot-cont-link:hover {
-border-bottom: 3px solid #E1D4C9;
-transition: 1s;
-}
+
 .tic {
     margin: 4px 0px 0px 0px;
 }
