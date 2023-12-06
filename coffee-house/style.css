@@ -15,6 +15,78 @@ body {
 html {
     scroll-behavior: smooth;
 }
+@media (any-hover: hover) and (pointer:fine) {
+    .nav-menu-list-item-link:hover{
+        border-bottom: 3px solid #403F3D; 
+        cursor: pointer;
+        transition: 1s;
+    }
+    .menu-cup:hover {
+        border-bottom: 3px solid #403F3D;
+        cursor: pointer;
+        transition: 1s;
+    }
+    .menu-enjoy-button:hover {
+        cursor: pointer;
+        transition: 1s;
+    }
+    .img-cup-men:hover {
+        opacity: 1;
+        transition: 1s;
+    }
+    .prev:hover svg {
+        stroke:#E1D4C9;
+        background-color: #665F55;
+        border-radius: 100%;
+        padding: 20px 20px 20px 20px;
+        transition: 1s;
+    }
+    .next:hover svg {
+        stroke:#E1D4C9;
+        background-color: #665F55;
+        border-radius: 100%;
+        padding: 20px 20px 20px 20px;
+        transition: 1s;
+    }
+    .img-about-img:hover img {
+        transform: scale(1);
+        cursor:pointer;
+        transition: 1s;
+    }
+    .form-1:hover {
+        background: var(--background-container, #665F55);
+        fill: #E1D4C9;
+        transition: 1s;
+    }
+    .form-1:hover .mobile-button{
+        background: var(--background-container, #665F55);
+        color: #E1D4C9;
+        transition: 1s;
+    }
+    .form-1:hover svg {
+        fill: #E1D4C9;
+        transition: 1s;
+    }
+    .form-1:hover .textSmall{
+        color: #E1D4C9;  
+        transition: 1s;
+    }
+    .icon-item:hover svg{
+        stroke: #403F3D;
+        border-radius: 100px;
+        background-color: #E1D4C9;
+        padding: 18px 18px 18px 18px;
+        justify-content: center;
+        align-items: center;
+        margin: 3px 0px 0px 0px;
+        transition: 1s;
+    }
+    .fot-cont-link:hover {
+        border-bottom: 3px solid #E1D4C9;
+        transition: 1s;
+        }
+
+}
 .container {
     max-width: 1440px;
     padding: 0px 40px;
@@ -81,11 +153,7 @@ html {
     font-weight: 600;
     line-height: 150%;
 }
-.nav-menu-list-item-link:hover{
-    border-bottom: 3px solid #403F3D; 
-    cursor: pointer;
-    transition: 1s;
-}
+
 ul {
     list-style-type: none;
 }
@@ -109,11 +177,7 @@ a {
     margin: 15px 1px 0px 9px;
     padding: 0px;
 }
-.menu-cup:hover {
-    border-bottom: 3px solid #403F3D;
-    cursor: pointer;
-    transition: 1s;
-}
+
 .container-main{
     display: flex;
     flex-direction: column;
@@ -210,14 +274,8 @@ a {
     margin: 0px 0px 0px 0px;
     padding: 21px 55px 21px 120px;
 }
-.menu-enjoy-button:hover {
-    cursor: pointer;
-    transition: 1s;
-}
-.img-cup-men:hover {
-    opacity: 1;
-    transition: 1s;
-}
+
+
 
 .text-favorite-coffee {
     color: var(--text-dark, #403F3D);
@@ -268,20 +326,7 @@ a {
 .slider svg {
     stroke: #403F3D;
 }
-.prev:hover svg {
-    stroke:#E1D4C9;
-    background-color: #665F55;
-    border-radius: 100%;
-    padding: 20px 20px 20px 20px;
-    transition: 1s;
-}
-.next:hover svg {
-    stroke:#E1D4C9;
-    background-color: #665F55;
-    border-radius: 100%;
-    padding: 20px 20px 20px 20px;
-    transition: 1s;
-}
+
 .prev {
     display: flex;
     position: absolute;
@@ -459,11 +504,7 @@ a {
 .img-about-img img {
     max-width: 100%;
 }
-.img-about-img:hover img {
-    transform: scale(1);
-    cursor:pointer;
-    transition: 1s;
-}
+
 .img-about-1 {
     width: 100%;
     heigh: 100%;
@@ -596,24 +637,7 @@ a {
 .button-mobile svg {
     fill: #403F3D; 
 }
-.form-1:hover {
-    background: var(--background-container, #665F55);
-    fill: #E1D4C9;
-    transition: 1s;
-}
-.form-1:hover .mobile-button{
-    background: var(--background-container, #665F55);
-    color: #E1D4C9;
-    transition: 1s;
-}
-.form-1:hover svg {
-    fill: #E1D4C9;
-    transition: 1s;
-}
-.form-1:hover .textSmall{
-    color: #E1D4C9;  
-    transition: 1s;
-}
+
 .button-mobile img {
     width: 36px;
     height: 36px;
@@ -697,16 +721,7 @@ a {
     border-radius: 100px;
     border: 1px solid var(--border-light, #C1B6AD);
 }
-.icon-item:hover svg{
-    stroke: #403F3D;
-    border-radius: 100px;
-    background-color: #E1D4C9;
-    padding: 18px 18px 18px 18px;
-    justify-content: center;
-    align-items: center;
-    margin: 3px 0px 0px 0px;
-    transition: 1s;
-}
+
 .iccn-link svg {
     stroke:#E1D4C9;
 }
@@ -757,10 +772,7 @@ a {
 .text-contact a {
     color: var(--text-light, #E1D4C9);
 }
-.fot-cont-link:hover {
-border-bottom: 3px solid #E1D4C9;
-transition: 1s;
-}
+
 .tic {
     margin: 4px 0px 0px 0px;
 }
