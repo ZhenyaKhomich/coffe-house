@@ -42,20 +42,7 @@
         stroke: #403F3D;
         box-sizing: content-box;
     }
-    .prev:hover svg {
-        stroke:#E1D4C9;
-        background-color: #665F55;
-        border-radius: 100%;
-        padding: 17px 17px ;
-        transition: 1s;
-    }
-    .next:hover svg {
-        stroke:#E1D4C9;
-        background-color: #665F55;
-        border-radius: 100%;
-        padding: 17px 17px;
-        transition: 1s;
-    }
+  
 }
 
 @media (max-width: 1135px) {
@@ -93,20 +80,7 @@
         stroke: #403F3D;
         box-sizing: content-box;
     }
-    .prev:hover svg {
-        stroke:#E1D4C9;
-        background-color: #665F55;
-        border-radius: 100%;
-        padding: 17px 17px ;
-        transition: 1s;
-    }
-    .next:hover svg {
-        stroke:#E1D4C9;
-        background-color: #665F55;
-        border-radius: 100%;
-        padding: 17px 17px;
-        transition: 1s;
-    }
+    
 }
 
 @media (max-width: 1000px) {
@@ -144,20 +118,7 @@
         stroke: #403F3D;
         box-sizing: content-box;
     }
-    .prev:hover svg {
-        stroke:#E1D4C9;
-        background-color: #665F55;
-        border-radius: 100%;
-        padding: 17px 17px ;
-        transition: 1s;
-    }
-    .next:hover svg {
-        stroke:#E1D4C9;
-        background-color: #665F55;
-        border-radius: 100%;
-        padding: 17px 17px;
-        transition: 1s;
-    }
+   
 }
 
 @media (max-width: 900px) {
@@ -195,20 +156,7 @@
         stroke: #403F3D;
         box-sizing: content-box;
     }
-    .prev:hover svg {
-        stroke:#E1D4C9;
-        background-color: #665F55;
-        border-radius: 100%;
-        padding: 17px 17px ;
-        transition: 1s;
-    }
-    .next:hover svg {
-        stroke:#E1D4C9;
-        background-color: #665F55;
-        border-radius: 100%;
-        padding: 17px 17px;
-        transition: 1s;
-    }
+  
     .container-mobile-text{
         display: flex;
         flex-direction: column;
@@ -566,65 +514,6 @@
     }
     .text-contact {
         margin: 16.5px 0px 0px 0px;
-    }
-    .imgLogo, .prev, .next, .carusel-dot, .form-1 {
-        cursor: default;
-    }
-    .menu-enjoy-button:hover {
-        cursor: default;
-    }
-    .prev:hover svg, .next:hover svg {
-        stroke:#403F3D;
-        background-color:  #E1D4C9;
-        padding: 0px 0px 0px 0px;
-    }
-    .img-about-img:hover img {
-        transform: scale(1.05);
-        cursor: default;
-        transition: 1s;
-    }
-    .form-1:hover {
-        background: var(--background-container, #E1D4C9);
-        fill: #403F3D;
-    }
-    .form-1:hover .mobile-button{
-        background: var(--background-container, #E1D4C9);
-        color: #403F3D;
-        transition: 1s;
-    }
-    .form-1:hover svg {
-        fill: #403F3D;
-        transition: 1s;
-    }
-    .form-1:hover .textSmall{
-        color: #403F3D;  
-        transition: 1s;
-    }
-    .icon-item:hover svg{
-        stroke: #E1D4C9;
-        border-radius: 100px;
-        background-color:#665F55;
-        padding: 18px 18px 18px 18px;
-        justify-content: center;
-        align-items: center;
-        margin: 3px 0px 0px 0px;
-        transition: 999999999s;
-        cursor: default;
-    }
-    .icon-item a {
-        cursor: default; 
-    }
-    .text-contact  a{
-        cursor: default;
-    }
-    .text-contact{
-        cursor: default;
-    }
-    .fot-cont-link:hover {
-        border-bottom: none;
-    }
-    * {
-        cursor: default; 
     }
 }
 

@@ -240,6 +240,9 @@
     .box-menu-5, .box-menu-6, .box-menu-7, .box-menu-8 {
         display: none;
     }
+    .box-menu img {
+        transform: scale(1);
+    }
     .img-drink {
         transform: scale(1);
         width: 350px;
@@ -324,71 +327,7 @@
     .text-contact {
         margin: 16.5px 0px 0px 0px;
     }
-    .imgLogo:hover {
-        background: none;
-        cursor: default;
-    }
-    .imgLogo a {
-        cursor: default;
-    }
-    .behind-text {
-        cursor:default;
-    }
-    .tea-label, .cake-label {
-        cursor:default;
-    }
-    input:checked ~ #a-1{
-        border-radius: 100px;
-        background: var(--background-container, #665F55);
-    }
-    input:checked ~ #a-2{
-        border-radius: 100px;
-        background: var(--background-container, #665F55);
-    }
-    input:checked ~ #a-3{
-        border-radius: 100px;
-        background: var(--background-container, #665F55);
-    }
-    input:checked ~ #a-4{
-        border-radius: 100px;
-        background: var(--background-container, #665F55);
-    }
-    .tea-label:hover, .cake-label:hover  {
-        background: none;
-        transition: 1s;
-    }
-    .log-text {
-        display: none;
-    }
-    .box-menu {
-        cursor:default;
-    }
-    .footer-text, .footer-contact-str {
-        cursor:default;
-    }
-    .icon-item a {
-        cursor: default; 
-    }
-    .icon-item:hover svg{
-        stroke: #E1D4C9;
-        border-radius: 100px;
-        background-color:#665F55;
-        padding: 18px 18px 18px 18px;
-        justify-content: center;
-        align-items: center;
-        margin: 3px 0px 0px 0px;
-        transition: 999999999s;
-        cursor: default;
-    }
-    .text-contact a {
-        cursor: default;
-    }
-        .text-contact {
-    cursor: default;
-    }
-        .fot-cont-link:hover {
-    border-bottom: none;
-    }
+    
 }
 
 @media (max-width: 760px) {
